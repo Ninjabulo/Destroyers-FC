@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destroyers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="Destroyers/Logo.jpeg" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Players</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Homepage Banner -->
+    <section id="home" class="banner">
+        <div class="banner-text">
+            <h1>Welcome to Destroyers</h1>
+            <p>Your official source for updates, matches, and player info!</p>
+            
+        </div>
+        
+           
+       
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <div class="news-item">
+                <img src="PASSION.png" alt="News 1">
+                <h3>News Title 1</h3>
+                <p>Short description of the news item.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="news-item">
+                <img src="Destroyers/WhatsApp Image 2025-01-10 at 15.09.14.jpeg" alt="News 2">
+                <h3>News Title 2</h3>
+                <p>Short description of the news item.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Players Section -->
+    <section id="players" class="players">
+        <h2>Meet Our Players</h2>
+        <div class="player-grid">
+            <div class="player-card">
+                <img src="Destroyers/WhatsApp Image 2025-01-10 at 15.09.21 (1).jpeg" alt="Player 1">
+                <h3>Player Name 1</h3>
+                <p>Position: Midfielder</p>
+            </div>
+            <div class="player-card">
+                <img src="Destroyers/WhatsApp Image 2025-01-10 at 15.09.20.jpeg" alt="Player 2">
+                <h3>Player Name 2</h3>
+                <p>Position: Striker</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Match Schedule -->
+    <section id="live-results">
+        <h2>Live Results</h2>
+        <iframe 
+            src="https://inqaku.com/team?season_id=12470&logteam_id=115761&tab=fixtures" 
+            width="100%" 
+            height="500px" 
+            style="border:none;">
+        </iframe>
+    </section>
+    
+</section>
+        <h2>Match Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>Venue</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-01-15</td>
+                    <td>Team A</td>
+                    <td>Stadium X</td>
+                    <td>Upcoming</td>
+                </tr>
+                <tr>
+                    <td>2025-01-08</td>
+                    <td>Team B</td>
+                    <td>Stadium Y</td>
+                    <td>Won 2-1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
